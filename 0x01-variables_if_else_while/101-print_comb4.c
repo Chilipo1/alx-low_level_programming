@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints all possible different combinations of three digits
+ * main - print all possible different combinations of three digits
  *
  * Return: 0
  */
@@ -14,7 +14,7 @@ int main(void)
 
 	for (i = 48; i < 58; i++)
 	{
-		for (n > i)
+		for (n = 48; n < 58; n++)
 		{
 			if (n > i)
 			{
